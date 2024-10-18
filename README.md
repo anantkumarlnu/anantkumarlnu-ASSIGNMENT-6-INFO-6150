@@ -35,3 +35,11 @@ PAST MEMEBERS
 LOST BUT NEVER FORGOTTEN -- CLIFF 
 
 FOOTER WITH RANDOM SHIT AND CONTROL FOR MUSIC AS WELL 
+
+
+References for images -- 
+https://www.facebook.com/LeeJeffriesphotographer/
+https://www.facebook.com/rosshalfinofficial/
+https://www.facebook.com/Metallica/
+
+and other several other fan accounts for older images 
