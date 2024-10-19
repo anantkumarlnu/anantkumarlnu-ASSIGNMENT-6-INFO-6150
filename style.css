@@ -176,7 +176,11 @@ border-radius: 50px;
 .merch-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 600px 600px 600px;
+  /* grid-template-rows: 300px 300px 300px; */
   column-gap: 32px;
 row-gap: 12px;
+}
+
+.item-filter{
+  grid-row-start: span 5;
 }
