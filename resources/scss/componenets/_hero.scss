@@ -1,14 +1,5 @@
 @import '../base/placeholders';
 
-.hero-container{
-  background-image: url(../resources/banners/IMG_4058.JPG);
-  /* background-color: aquamarine; */
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  /* color: #fff; */
-}
-
 .nav-container{
   width: 90%;
   @extend %autoed-margins;

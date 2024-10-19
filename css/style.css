@@ -141,14 +141,14 @@ a:hover, a:active {
 }
 
 .hero-container {
-  background-image: url(../resources/banners/IMG_4058.JPG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/banners/IMG_4058.JPG);
   background-size: cover;
   height: 100vh;
   position: relative;
 }
 
 .hero-container-merch {
-  background-image: url(../resources/banners/IMG_4056.JPG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/banners/IMG_4056.JPG);
   background-size: cover;
   height: 100vh;
 }
@@ -188,15 +188,6 @@ a:hover, a:active {
 
 .bodrad, .cliff-container {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
-}
-
-.hero-container {
-  background-image: url(../resources/banners/IMG_4058.JPG);
-  /* background-color: aquamarine; */
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  /* color: #fff; */
 }
 
 .nav-container {
