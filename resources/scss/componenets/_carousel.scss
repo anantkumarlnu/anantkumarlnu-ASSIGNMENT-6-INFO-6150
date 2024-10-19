@@ -1,0 +1,10 @@
+@import '../base/placeholders';
+
+.carousel {
+  /* width:640px; */
+  height:500px !important;
+}
+.bodrad{
+  border-radius: 50px;
+  @extend %boxed-shadoww;
+}

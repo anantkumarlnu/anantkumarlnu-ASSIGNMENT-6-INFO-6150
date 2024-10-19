@@ -5,8 +5,153 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
+.nav-container, .header {
+  margin: 0 auto;
+}
+
+.bodrad, .cliff-container {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
 .cursor-change {
   cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  height: 50px;
+  margin-top: 50px;
+  color: #fff;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.125rem;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: red;
+}
+
+.stoke-insta-icon {
+  stroke: white;
+  height: 32px;
+}
+
+.current-title {
+  width: 90%;
+  font-size: 54px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.current-container {
+  width: 90%;
+  margin: 50px auto;
+  background-color: #f1f3f5;
+  padding: 3.125rem;
+  border-radius: 50px;
+}
+
+.current-text {
+  font-size: 26px;
+}
+
+.current-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px 600px 600px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 12px;
+}
+
+.nav-container, .header {
+  margin: 0 auto;
+}
+
+.bodrad, .cliff-container {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+}
+
+.cliff-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-image: url(../resources/cliffordDBurton/IMG_4038.jpg);
+  background-size: cover;
+  background-color: #f1f3f5;
+  height: 610px;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.cliff-title {
+  margin-top: 100px;
+  width: 90%;
+  font-size: 54px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cliff-text {
+  color: #fff;
+  width: 50%;
+  padding: 2.5rem;
+  font-size: 24px;
+}
+
+.hero-container {
+  background-image: url(../resources/banners/IMG_4058.JPG);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-container-merch {
+  background-image: url(../resources/banners/IMG_4056.JPG);
+  background-size: cover;
+  height: 100vh;
+}
+
+.merchh-container {
+  width: 90%;
+  margin: 50px auto;
+  background-color: #f1f3f5;
+  padding: 3.125rem;
+  border-radius: 50px;
+}
+
+.merch-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 300px 300px 300px; */
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 12px;
+}
+
+.item-filter {
+  grid-row-start: span 5;
+}
+
+.nav-container, .header {
+  margin: 0 auto;
+}
+
+.bodrad, .cliff-container {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
 }
 
 .hero-container {
@@ -20,7 +165,6 @@
 
 .nav-container {
   width: 90%;
-  margin: 0 auto;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -59,24 +203,12 @@
   width: 90px;
 }
 
-/* current member grid */
-.current-title {
-  width: 90%;
-  font-size: 54px;
+.header, .nav-container {
   margin: 0 auto;
-  margin-top: 30px;
 }
 
-.current-container {
-  width: 90%;
-  margin: 50px auto;
-  background-color: #f1f3f5;
-  padding: 50px;
-  border-radius: 50px;
-}
-
-.current-text {
-  font-size: 26px;
+.bodrad, .cliff-container {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
@@ -84,103 +216,6 @@
   height: 500px !important;
 }
 
-.current-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 600px 600px 600px;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
-  row-gap: 12px;
-}
-
 .bodrad {
   border-radius: 50px;
-}
-
-/* current member grid end  */
-/* cliff container start */
-.cliff-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  background-image: url(../resources/cliffordDBurton/IMG_4038.jpg);
-  background-size: cover;
-  background-color: #f1f3f5;
-  height: 610px;
-  color: #fff;
-  border-radius: 100px;
-}
-
-.cliff-title {
-  margin-top: 100px;
-  width: 90%;
-  font-size: 54px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cliff-text {
-  color: #fff;
-  width: 50%;
-  padding: 40px;
-  font-size: 24px;
-}
-
-/* cliff container end  */
-/* footer start */
-.footer-container {
-  display: flex;
-  height: 50px;
-  margin-top: 50px;
-  color: #fff;
-  background-color: black;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
-}
-
-a:link, a:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  color: red;
-}
-
-.stoke-insta-icon {
-  stroke: white;
-  height: 32px;
-}
-
-/* footer end */
-/* merch styles */
-.hero-container-merch {
-  background-image: url(../resources/banners/IMG_4056.JPG);
-  /* background-color: aquamarine; */
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  /* color: #fff; */
-}
-
-.merchh-container {
-  width: 90%;
-  margin: 50px auto;
-  background-color: #f1f3f5;
-  padding: 50px;
-  border-radius: 50px;
-}
-
-.merch-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: 300px 300px 300px; */
-  -moz-column-gap: 32px;
-       column-gap: 32px;
-  row-gap: 12px;
-}
-
-.item-filter {
-  grid-row-start: span 5;
 }/*# sourceMappingURL=style.css.map */

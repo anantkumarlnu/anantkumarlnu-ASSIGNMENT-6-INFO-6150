@@ -15,20 +15,12 @@ border-radius: 50px;
   font-size: 26px;
 }
 
-.carousel {
-  /* width:640px; */
-  height:500px !important;
-}
 
 .current-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 600px 600px 600px;
   column-gap: 32px;
-row-gap: 12px;
-  
+  row-gap: 12px;
 }
 
-.bodrad{
-  border-radius: 50px;
-}

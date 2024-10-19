@@ -3,7 +3,7 @@
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/functions';
-@import 'base/placeholders';
+// @import 'base/_placeholders';
 
 
 // Layout styles
@@ -12,16 +12,11 @@
 @import 'layout/current_member';
 @import 'layout/cliff';
 
-// Component styles
-@import 'components/buttons';
-@import 'components/cards';
-@import 'components/forms';
 
 // Page styles
 @import 'pages/home';
 @import 'pages/merch';
 
 // componenet styles
-@import 'componenet/hero';
-
-
+@import 'componenets/hero';
+@import 'componenets/_carousel';
