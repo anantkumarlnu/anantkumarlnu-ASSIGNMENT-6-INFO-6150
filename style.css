@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+
+}
+
+.hero-container{
+  background-image: url(resources/banners/IMG_4058.JPG);
+  /* background-color: aquamarine; */
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  /* color: #fff; */
+}
+
+.nav-container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.merchandise-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+font-size: 24px;
+color: #fff;
+}
+
+.user-icon{
+  width: 40px;
+  stroke: #fff;
+}
+
+.title-container {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+font-size: 68px;
+  /* background-color: violet; */
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.down-arr{
+  stroke: #fff;
+  fill: #fff;
+  width: 90px;
+}
+
+/* current member grid */
+.current-container{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.carousel {
+  /* width:640px; */
+  height:700px !important;
+}
+
+.current-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 700px 700px 700px;
+  row-gap: 52px;
+  column-gap: 24px;
+
+
+  
+}
+
+
+/* current member grid end  */

@@ -20,7 +20,17 @@ UI Should be Rich and will be considered for grading --- might be losing points 
 
 TASK BREAKDOWN 
 
-INDEX.HTML 
+INDEX.HTML \
+
+this is what itll have .. banner image and navigation element with the banner background wuth a tint
+text on the banner saying somthing like scroll down to meet the lads or something 
+
+that's it .. nav will have a few elements and a merchandise button 
+
+metallica logo for the top corner 
+
+mixin of a function to change the color of the text if the background becomes lighter or something 
+
 
 FLEX BOX FOR HEADER 
 
