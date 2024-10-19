@@ -1,0 +1,11 @@
+@import 'base/placeholders';
+
+.header {
+  @include flex-container(space-between, center);
+  width: 90%;
+  @extend %autoed-margins;
+}
+
+.cursor-change{
+  cursor: pointer;
+}

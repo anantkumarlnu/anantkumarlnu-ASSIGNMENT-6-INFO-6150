@@ -1,0 +1,51 @@
+@import 'base/placeholders';
+
+.hero-container{
+  background-image: url(../resources/banners/IMG_4058.JPG);
+  /* background-color: aquamarine; */
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  /* color: #fff; */
+}
+
+.nav-container{
+  width: 90%;
+  @extend %autoed-margins;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.merchandise-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-size: 24px;
+  color: #fff;
+  }
+  
+  .user-icon{
+    width: 40px;
+    stroke: #fff;
+  }
+  
+  .title-container {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+  font-size: 68px;
+    /* background-color: violet; */
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .down-arr{
+    stroke: #fff;
+    fill: #fff;
+    width: 90px;
+  }

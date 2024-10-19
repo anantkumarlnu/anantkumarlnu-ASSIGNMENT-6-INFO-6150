@@ -1,0 +1,26 @@
+@import 'base/functions';
+
+.cliff-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-image: url(../resources/cliffordDBurton/IMG_4038.jpg);
+  background-size: cover;
+background-color: #f1f3f5;
+  height: 610px;
+  color: #fff;
+  border-radius: 100px;
+}
+.cliff-title{
+  margin-top: 100px;
+  width: 90%;
+font-size: 54px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cliff-text{
+  color: #fff;
+  width: 50%;
+  padding: spacing(2.5);
+  font-size: 24px;
+}

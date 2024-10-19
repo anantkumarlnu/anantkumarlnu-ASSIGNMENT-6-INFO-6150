@@ -1,0 +1,25 @@
+@import 'base/functions';
+
+.hero-container-merch {
+  background-image: url(../resources/banners/IMG_4056.JPG);
+  background-size: cover;
+  height: $hero-height;
+}
+
+.merchh-container{
+  width: 90%;
+  margin: 50px auto;
+  background-color: #f1f3f5;
+  padding: spacing(3.125);
+border-radius: 50px;
+}
+.merch-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 300px 300px 300px; */
+  column-gap: 32px;
+row-gap: 12px;
+}
+.item-filter{
+  grid-row-start: span 5;
+}

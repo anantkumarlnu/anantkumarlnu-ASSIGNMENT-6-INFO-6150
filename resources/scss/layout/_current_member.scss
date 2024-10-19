@@ -1,0 +1,34 @@
+.current-title{
+  width: 90%;
+font-size: 54px;
+margin: 0 auto;
+margin-top: 30px;
+}
+.current-container{
+  width: 90%;
+  margin: 50px auto;
+  background-color: #f1f3f5;
+  padding: spacing(3.125);
+border-radius: 50px;
+}
+.current-text{
+  font-size: 26px;
+}
+
+.carousel {
+  /* width:640px; */
+  height:500px !important;
+}
+
+.current-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px 600px 600px;
+  column-gap: 32px;
+row-gap: 12px;
+  
+}
+
+.bodrad{
+  border-radius: 50px;
+}
