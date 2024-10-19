@@ -18,33 +18,7 @@ SASS/SCSS Files MUST be organized into multiple folder structures based on UI Fe
 UI Should be Rich and will be considered for grading --- might be losing points here
 
 
-TASK BREAKDOWN 
-
-INDEX.HTML \
-
-this is what itll have .. banner image and navigation element with the banner background wuth a tint
-text on the banner saying somthing like scroll down to meet the lads or something 
-
-that's it .. nav will have a few elements and a merchandise button 
-
-metallica logo for the top corner 
-
-mixin of a function to change the color of the text if the background becomes lighter or something 
-
-
-FLEX BOX FOR HEADER 
-
-GRID FOR CAROUSEL AND DESCRIPTIONS OF THE BAND MEMBERS 
-
-HEADINGS IN BETWEEN -- 
-
-MEET THE LADS ..
-
-PAST MEMEBERS
-
-LOST BUT NEVER FORGOTTEN -- CLIFF 
-
-FOOTER WITH RANDOM SHIT AND CONTROL FOR MUSIC AS WELL 
+for loop --  created color classes using for loop -- used in merch side bar 
 
 
 References for images -- 

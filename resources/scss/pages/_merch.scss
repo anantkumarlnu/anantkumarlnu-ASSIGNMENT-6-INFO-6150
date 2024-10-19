@@ -23,3 +23,16 @@ row-gap: 12px;
 .item-filter{
   grid-row-start: span 5;
 }
+
+// for loop to change background color of li items in the accordion 
+$colors: (
+    first: #fff,
+    rest: #ced4da,
+
+);
+
+@for $i from 1 through length($colors) {
+    .color-#{nth(map-keys($colors), $i)} {
+        background-color: nth(map-values($colors), $i);
+    }
+}
