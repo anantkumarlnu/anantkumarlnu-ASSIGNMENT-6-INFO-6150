@@ -4,11 +4,11 @@
       border-radius: 5px;
       color: white;
       @if $type == 'cart' {
-          background-color: #000;
+          background-color: var(--cart-color);
       }
 
       @if $type == 'info' {
-          background-color: #1098ad;           
+          background-color: var(--info-color);           
       }
   }
   .button-#{$type}:hover {
@@ -16,8 +16,8 @@
     border-radius: 5px;
     color: white;
     @if $type == 'info' {
-        background-color: #66d9e8; 
-        color: #000;
+        background-color: var(--info-hover-color); 
+        color: var(--cart-color);
     }
 }
 }

@@ -1,24 +1,23 @@
-// Base styles
 @import 'base/reset';
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/functions';
 @import 'base/buttons';
 
-// @import 'base/_placeholders';
-
-
-// Layout styles
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/current_member';
 @import 'layout/cliff';
 
 
-// Page styles
 @import 'pages/home';
 @import 'pages/merch';
 
-// componenet styles
 @import 'componenets/hero';
 @import 'componenets/_carousel';
+
+:root {
+  --cart-color: #000; 
+  --info-color: #1098ad; 
+  --info-hover-color: #66d9e8; 
+}
