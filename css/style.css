@@ -5,6 +5,34 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
+.button-cart {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+}
+
+.button-cart:hover {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.button-info {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #1098ad;
+}
+
+.button-info:hover {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #66d9e8;
+  color: #000;
+}
+
 .nav-container, .header {
   margin: 0 auto;
 }

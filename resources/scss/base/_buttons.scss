@@ -1,0 +1,23 @@
+@each $type in $button-types {
+  .button-#{$type} {
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: white;
+      @if $type == 'cart' {
+          background-color: #000;
+      }
+
+      @if $type == 'info' {
+          background-color: #1098ad;           
+      }
+  }
+  .button-#{$type}:hover {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    @if $type == 'info' {
+        background-color: #66d9e8; 
+        color: #000;
+    }
+}
+}
