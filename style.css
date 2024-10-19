@@ -151,3 +151,32 @@ text-decoration: none;
   height: 32px;
  }
 /* footer end */
+
+
+
+/* merch styles */
+
+.hero-container-merch{
+  background-image: url(resources/banners/IMG_4056.JPG);
+  /* background-color: aquamarine; */
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  /* color: #fff; */
+}
+
+
+.merchh-container{
+  width: 90%;
+  margin: 50px auto;
+  background-color: #f1f3f5;
+  padding: 50px;
+border-radius: 50px;
+}
+.merch-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 600px 600px 600px;
+  column-gap: 32px;
+row-gap: 12px;
+}
