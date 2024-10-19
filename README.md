@@ -1,4 +1,7 @@
 # anantkumarlnu-ASSIGNMENT-6-INFO-6150
+ANANT KUMAR LNU
+002050375
+
 6th assignment for INFO 6150 
 
 REQUIREMENTS 
