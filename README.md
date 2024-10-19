@@ -19,7 +19,7 @@ UI Should be Rich and will be considered for grading --- might be losing points 
 
 
 for loop --  created color classes using for loop -- used in merch side bar 
-
+maps -- for font sizes 
 
 References for images -- 
 https://www.facebook.com/LeeJeffriesphotographer/
