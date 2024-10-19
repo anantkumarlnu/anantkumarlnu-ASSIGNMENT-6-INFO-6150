@@ -54,12 +54,12 @@
 
 .footer-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 50px;
   margin-top: 50px;
   color: #fff;
   background-color: black;
-  align-items: center;
-  justify-content: space-between;
   padding: 0 3.125rem;
 }
 
@@ -197,6 +197,10 @@ a:hover, a:active {
   justify-content: space-between;
   align-items: center;
 }
+.nav-container .user-icon {
+  width: 40px;
+  stroke: #fff;
+}
 
 .merchandise-container {
   display: flex;
@@ -205,11 +209,6 @@ a:hover, a:active {
   gap: 30px;
   font-size: 24px;
   color: #fff;
-}
-
-.user-icon {
-  width: 40px;
-  stroke: #fff;
 }
 
 .title-container {

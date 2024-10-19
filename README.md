@@ -2,28 +2,63 @@
 6th assignment for INFO 6150 
 
 REQUIREMENTS 
-Create a two-page website for your chosen domain/concept but not your portfolio. --- METALLICA WEBSITE WITH LANDING PAGE AND MERCHADISE STORE
-This assignment aims to learn about CSS Grid layout, Flexbox, and SASS/SCSS Features. -- GRID AND FLEX WILL BE COVERED 
-You MUST Implement a minimum of TWO CSS Grid layout and TWO Flexbox layout in your pages wherever it fits. -- 2 FLEXBOX WILL BE HEADER AND FOOTER .. GRID - one will be landing page and the other will be the merchandise thing .. that will have a nice layout as well .. entire page payout for both the pages will be grid 
-Implement All the below SASS Features --- later aligator 
-Variables,
-Custom Properties
-Nesting
-Interpolation
-Placeholder Selectors
-Mixins
-Functions
-Add 3-4 more SASS/SCSS Features of your choice
-SASS/SCSS Files MUST be organized into multiple folder structures based on UI Features, Common Elements or Themes, etc.… -- after the basics are done for the layout and stuff
-UI Should be Rich and will be considered for grading --- might be losing points here
 
+WEBPAGE DESCRIPTION 
 
-for loop --  created color classes using for loop -- used in merch side bar 
-maps -- for font sizes 
+Being the metalhead that I am, I went with a metallica landing page and merch page website. never had so much fun creating an assignment, maybe because it was related to something that I am passionate about.😅
+the landing page has a hero section, info section for current members, a card for the late Clifford D Burton and a footer.
 
-References for images -- 
+LANDING PAGE 
+- hero section has a nav, background image(with gradient for better visibility) and descriptive text that is absolutely positioned.
+- Nav has link to the merch page as well, flexbox is used for this (nested flexbox, as I wanted to move the merch and user icon together to the right)
+- the info sections have text and bootstrap carousel that are set to autorotate the images, buttons have been removed from the carousel. grid is used for this 
+- Cliff section is designed similarly to the hero section, the text is kept on the top left, positioning suits well in my humble opinion.
+- footer has the link to official metallica website and their instagram as well, usage of flexbox 
+
+MERCH PAGE
+- similar hero section with a different image 
+- grid is used here for the product section 
+- filter accordion is made to take the entire first column using span property of grid
+- footer is similar as the landing page 
+
+FLEXBOX IMPL
+- header and footer for landing page 
+- header and footer for the merch page 
+
+CSS GRID IMPL
+- current member section on the landing page. 2 columns, equal width using 1fr for both, 4 rows.
+- merch-grid section of the merch page. span is used to span the filter entire first column and the rest of the sale-item cards take the open spaces 
+
+SASS IMPL 
+- FOLDER STRUCTURE - as required the structure of the sass is broken up into folder that make sense semantically 
+- VARIABLES - used for colors, font-sizes and a few other css properties 
+- CUSTOM PROPERTIES - used for colors of buttons for sale-items
+- NESTING - hero section has nesting for user icon 
+- INTERPOLATION - buttons scss implement interpolation for color of buttons, resulting in dynamically generated css classes 
+- PLACEHOLDER - used for centering margins and box shadows 
+- MIXIN - used for flex container for footer
+- FUNCTIONS - used for spacing for padding across pages 
+- IF - used with interpolation 
+- FOR - used for looping over color values and dynamically creating classes
+- MAP - used for fetching font values from the variable ..used all across the page
+
+REFERENCES
+IMAGES
 https://www.facebook.com/LeeJeffriesphotographer/
 https://www.facebook.com/rosshalfinofficial/
 https://www.facebook.com/Metallica/
-
 and other several other fan accounts for older images 
+
+ICONS
+https://heroicons.com/
+
+COLORS
+https://yeun.github.io/open-color/
+
+BOOTSTRAP ELEMENTS
+https://getbootstrap.com/docs/5.3/components/accordion/
+https://getbootstrap.com/docs/5.3/components/card/
+https://getbootstrap.com/docs/5.3/components/carousel/
+
+PS
+original scope of the webapp was way bigger than what has been implemented, hence the abundance of images, of past members and extra banners.
